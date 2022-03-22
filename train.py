@@ -61,7 +61,7 @@ ax.set_xlabel('Importance',fontsize = axis_fs)
 ax.set_ylabel('Feature', fontsize = axis_fs)#ylabel
 ax.set_title('Random forest\nfeature importance', fontsize = title_fs)
 
-plt.tight_layout()s
+plt.tight_layout()
 plt.savefig("feature_importance.png",dpi=120) 
 plt.close()
 
